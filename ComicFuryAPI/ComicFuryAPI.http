@@ -1,0 +1,16 @@
+@ComicFuryAPI_HostAddress = http://localhost:5261
+
+###
+
+GET {{ComicFuryAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{ComicFuryAPI_HostAddress}}/profileinfo/
+Accept: application/json
+
+{
+   "username": "ThatOneAceGuy"
+}
+###
