@@ -1,13 +1,11 @@
-using ComicFuryAPI.EndPoints;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using ComicFuryAPI.EndPoints.Utils;
 
 namespace ComicFuryAPI;
 
 public class APIApp
 {
     private WebApplication _app;
+    public static readonly HtmlAgilityPack.HtmlWeb webClient = new();
 
     public APIApp(string[] args)
     {

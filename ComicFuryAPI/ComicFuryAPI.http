@@ -9,8 +9,14 @@ Accept: application/json
 
 GET {{ComicFuryAPI_HostAddress}}/profileinfo/
 Accept: application/json
+Content-Type: 
 
 {
    "username": "ThatOneAceGuy"
 }
+###
+@Request_UserName = SaltnPepperBunny
+
+GET {{ComicFuryAPI_HostAddress}}/{{Request_UserName}}/author
+
 ###

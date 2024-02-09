@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Builder;
-
-namespace ComicFuryAPI.EndPoints;
+namespace ComicFuryAPI.EndPoints.Utils;
 
 public abstract class ComicEndpoint
 {
